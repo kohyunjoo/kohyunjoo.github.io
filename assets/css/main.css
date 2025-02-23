@@ -3185,11 +3185,17 @@
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
+			color: white; /* 글자 색상을 흰색으로 */
+    			font-weight: 800; /* 글자를 더 두껍게 */
 		}
 
 		#banner p {
 			font-size: 1.25em;
 			margin-bottom: 1.75em;
+			#banner p {
+		    	color: white; /* 글자 색상을 흰색으로 */
+		   	font-weight: 600; /* 본문 글자를 더 두껍게 */
+			}
 		}
 
 		#banner input[type="submit"],
